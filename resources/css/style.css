@@ -27,3 +27,17 @@ header nav ul li{
   display: inline-block;
   padding: 0 10px;
 }
+
+.sec1{
+  display: flex;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.mission{
+  background-color: black;
+  width: 1200px;
+}
