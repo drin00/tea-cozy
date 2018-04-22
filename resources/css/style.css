@@ -20,6 +20,7 @@ header{
   width: 100%;
   position: fixed;
   flex-wrap: wrap;
+  z-index: 2;
 }
 header img{
   height: 50px;
@@ -31,6 +32,10 @@ header nav ul li{
   margin-right: 20px;
 }
 
+main{
+  position: relative;
+  top: 69px;
+}
 .sec1{
   display: flex;
   background-image: url("../images/img-mission-background.jpg");
