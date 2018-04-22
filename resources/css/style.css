@@ -19,6 +19,7 @@ header{
   border-bottom: 1px solid seashell;
   width: 100%;
   position: fixed;
+  flex-wrap: wrap;
 }
 header img{
   height: 50px;
@@ -47,7 +48,7 @@ header nav ul li{
 
 .sec2{
   width: 1000px;
-  margin: 50px auto;   
+  margin: 50px auto;
 }
 
 .tea1{
