@@ -17,6 +17,7 @@ header{
   height: 69px;
   background-color: black;
   border-bottom: 1px solid seashell;
+  width: auto;
 }
 header img{
   height: 50px;
@@ -32,12 +33,12 @@ header nav ul li{
   display: flex;
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
-  width: 1200px;
+  width: 88%;
   margin: 0 auto;
   align-items: center;
 }
 
 .mission{
   background-color: black;
-  width: 1200px;
+  width: 100%;
 }
