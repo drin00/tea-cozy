@@ -17,7 +17,8 @@ header{
   height: 69px;
   background-color: black;
   border-bottom: 1px solid seashell;
-  width: auto;
+  width: 100%;
+  position: fixed;
 }
 header img{
   height: 50px;
@@ -26,14 +27,14 @@ header img{
 
 header nav ul li{
   display: inline-block;
-  padding: 0 10px;
+  margin-right: 20px;
 }
 
 .sec1{
   display: flex;
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
-  width: 88%;
+  width: 1200px;
   margin: 0 auto;
   align-items: center;
 }
@@ -41,4 +42,35 @@ header nav ul li{
 .mission{
   background-color: black;
   width: 100%;
+  align-items: center;
+}
+
+.sec2{
+  width: 1000px;
+  margin: 50px auto;   
+}
+
+.tea1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tea img{
+  width: 300px;
+  height: 200px;
+}
+
+.tea2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tea2 img{
+  margin: 10px 23px;
+}
+
+.tea h4{
+  margin: 10px 0;
 }
