@@ -30,6 +30,15 @@ header img{
 header nav ul li{
   display: inline-block;
   margin-right: 20px;
+  color: seashell;
+
+}
+header nav ul li a{
+  color: seashell;
+}
+
+header nav ul li a:visited{
+  color: seashell;
 }
 
 main{
@@ -53,7 +62,8 @@ main{
 
 .sec2{
   width: 1000px;
-  margin: 50px auto;
+  margin: 0 auto;
+  padding: 69px 0;
 }
 
 .tea1{
@@ -79,4 +89,47 @@ main{
 
 .tea h4{
   margin: 10px 0;
+}
+
+.sec3{
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url("../images/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sec3 h2{
+  margin-bottom: 0 0 15px 0;
+
+}
+.locations{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.loc{
+  background-color: black;
+  width: 300px;
+  margin: 0 20px;
+}
+
+.loc h4{
+  font-weight: normal;
+}
+
+.sec4{
+  height: 200px;
+  margin: 0 auto;
+  padding-top: 0px;
+}
+
+footer{
+  text-align: left;
+  margin: 69px 20px;
 }
